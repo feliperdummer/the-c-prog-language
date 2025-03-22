@@ -32,7 +32,7 @@ void itoa(int n, char s[], int min)
 
     i = j = 0;
     do {
-        if (((n / 10) > 0) || (n == 1)) {
+        if (((n / 10) > 0) || (n >= 1)) {
             s[i++] = digit[n % 10];
             j++;
         }
