@@ -24,12 +24,24 @@ void itob(int n, char s[], int b)
 {
     char symbol[] = "0123456789ABCDEF";
 
+    int sign;
+
+    if ((sign = n) < 0) {
+        n = -n;
+    }    
+
     int i = 0;
     do {
         s[i++] = symbol[(n % b)];
     } while((n /= b) > 0);
 
+    if (sign < 0) {
+        s[i++] = '-';
+    }
+
     reverse(s);
+
+    s[i] = '\0'
 }
 
 void reverse(char s[])
