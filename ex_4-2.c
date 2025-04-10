@@ -71,7 +71,7 @@ double pow_of(long int base, int power)
         return 0;
     }
     else if (power <= 0) {
-        return -1; // 0 to the power of 0 is indeterminate and 0 to the power of a negative number does not exists
+        return -1; // 0 to the power of 0 is indeterminate and 0 to the power of a negative number does not exist
     }
     if (power == 0) {
         return 1;
