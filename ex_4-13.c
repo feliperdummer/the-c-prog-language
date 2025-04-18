@@ -5,22 +5,21 @@
 #include <stdio.h>
 #include <string.h>
 
-void reverse(char s[]);
+void reverse(char s[], int ind);
 
 int main(void)
 {
     char s[] = "Hello";
+    int ind = 0;
 
-    reverse(s);
+    reverse(s, ind);
 
     printf("%s\n", s);
 
     return 0;
 }
 
-int ind = 0;
-
-void reverse(char s[])
+void reverse(char s[], int ind)
 {
     int q = strlen(s);
     char temp;
@@ -29,7 +28,6 @@ void reverse(char s[])
         temp = s[ind];
         s[ind] = s[q-(ind+1)];
         s[q-(ind+1)] = temp;
-        ind++;
-        reverse(s);
+        reverse(s, ind+1);
     }
 }
