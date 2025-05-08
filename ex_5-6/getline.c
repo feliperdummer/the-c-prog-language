@@ -9,8 +9,8 @@ int getline(char *s, int lim)
         *s++ = c;
         ++i;
     }
-    if (*s == '\n') {
-        *s++ = '\n';
+    if (c == '\n') {
+        *s++ = c;
         ++i;
     }
     *s = '\0';
