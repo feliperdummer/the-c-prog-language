@@ -3,16 +3,13 @@
 
 int getline(char *s, int lim)
 {
-    int c, i = 0;
+    int c;
+    char *s_mem = s;
 
-    while (i < lim - 1 && (c = getchar()) != EOF && c != '\n') {
+    while (i < lim - 1 && (c = getchar()) != EOF && c != '\n')
         *s++ = c;
-        ++i;
-    }
-    if (c == '\n') {
+    if (c == '\n')
         *s++ = c;
-        ++i;
-    }
     *s = '\0';
-    return i;
+    return (s - s_mem);
 }
