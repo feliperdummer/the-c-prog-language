@@ -20,10 +20,6 @@ int main(void)
     return 0;
 }
 
-/*
-    *(*(daytab + 1) + 2) Forma correta de acesso
-*/
-
 static char nleap[13] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 static char leap[13] = {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 static char *daytab[2] = {nleap, leap};
