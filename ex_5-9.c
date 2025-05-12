@@ -2,7 +2,7 @@
     Rewrite the routines day_of_year and month_day with pointets instead of indexing.
 */
 /*
-    A lot of this is from:
+    A lot of this came from:
     https://penti.org/~sederlok/misc/lang/c/the_c_programming_language_-_exercises/krx508.html
 */
 
