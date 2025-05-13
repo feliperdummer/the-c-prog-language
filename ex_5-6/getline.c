@@ -6,7 +6,7 @@ int getline(char *s, int lim)
     int c;
     char *s_mem = s;
 
-    while (i < lim - 1 && (c = getchar()) != EOF && c != '\n')
+    while ((s - s_mem) < lim - 1 && (c = getchar()) != EOF && c != '\n')
         *s++ = c;
     if (c == '\n')
         *s++ = c;
