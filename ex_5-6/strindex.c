@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// This function needs correction, please do not use it;
+
 int strindex(char *s, char *t)
 {
     int i;
