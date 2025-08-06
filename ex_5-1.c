@@ -22,7 +22,7 @@ int getint(int *pn)
         if (!isdigit(temp)) {
             ungetch(temp);
             ungetch(c);
-            return -1;
+            return 0;
         }
         c = temp;
     }
@@ -30,6 +30,6 @@ int getint(int *pn)
         *pn = 10 * *pn + (c - '0');
     *pn *= sign;
     if (c != EOF)
-            ungetch(c);
+        ungetch(c);
     return c;
 }
