@@ -1,3 +1,7 @@
+/*
+    Exercício 1-3: Modifique o programa de conversão de temperatura para imprimir um título acima da tabela
+*/
+
 #include <stdio.h>
 
 int main(void) {
@@ -16,8 +20,9 @@ int main(void) {
     while (fahr <= upper) {
         celsius = (5.0/9.0) * (fahr - 32.0);
         printf("%3.0f %10.1f\n", fahr, celsius);
-        fahr += step;
+        fahr += step; 
     }
 
     return 0;
 }
+
