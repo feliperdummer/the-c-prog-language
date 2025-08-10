@@ -1,5 +1,6 @@
 # the-c-prog-language
 Exercícios resolvidos do livro: The C Programming Language 2nd Edition 
+
 Autores do livro: Brian Kernighan & Dennis Ritchie
 
 Esse repositório foi criado com o intuito de ser prático pra mim toda vez que precisar voltar em algum exercício passado do livro, mas também pra quem esteja com dificuldade
