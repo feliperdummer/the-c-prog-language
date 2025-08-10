@@ -1,15 +1,11 @@
 # the-c-prog-language
-Exercises from: THE C PROGRAMMING LANGUAGE - SECOND EDITION
+Exercícios resolvidos do livro: The C Programming Language 2nd Edition 
+Autores do livro: Brian Kernighan & Dennis Ritchie
 
-PORTUGUES**
+Esse repositório foi criado com o intuito de ser prático pra mim toda vez que precisar voltar em algum exercício passado do livro, mas também pra quem esteja com dificuldade
+em algum exercício e queira ter uma noção de como começar a resolver;
 
-- Bom, aqui nesse repositorio eu vou colocar os exercicios do livro THE C PROGRAMMING LANGUAGE - SECOND EDITION;
-- Sinta-se à vontade para usar esses códigos da forma que quiser, eles estão aqui para ajudar o aprendizado de todos;
-- Caso queira discutir algum dos algoritmos, me mande uma menssagem aqui e podemos discutir;
+Caso veja alguma coisa que possa ser melhorada no(s) código(s), manda uma mensagem;
 
+Antes de dar um ctrl C + ctrl V no código e colar na sua IDE, tente entender como e por qual motivo aquela linha de código foi escrita daquele jeito, isso vai te ajudar muito;
 
-ENGLISH**
-
-- Well, in this repository i'll be putting the exercises from the book THE C PROGRAMMING LANGUAGE - SECOND EDITION;
-- Feel free to use the way you want, they're here to help everyone's learning;
-- In case you want to discuss any of the algorithms here, send me a message and let's discuss it;
