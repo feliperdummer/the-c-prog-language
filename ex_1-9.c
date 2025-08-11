@@ -1,19 +1,21 @@
+/*
+    Exercicio 1-9: Escreva um programa para copiar seu input para o output, substituindo toda sequência de 1
+    ou mais espaços em branco por apenas um espaço em branco
+*/
+
 #include <stdio.h>
 
-int main()
-{
-    int c, last_seen;
+int main(void) {
 
-    while ((c=getchar())!=EOF) {
-        if (c!=' ') {
+    int c, ls;
+
+    while ((c = getchar()) != EOF) {
+        if (c != ' ')
             putchar(c);
-        }
-        else if (c==' ')  {
-            if (last_seen!=c) {
+        else
+            if (ls != c)
                 putchar(c);
-            }
-        }
-        last_seen=c;
+        ls = c;
     }
 
     return 0;
