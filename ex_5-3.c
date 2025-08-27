@@ -1,14 +1,14 @@
 /*
-    Write a pointer version of the function strcat that we showed in Chapter 2: strcat(s, t) copies the string t to the end of s
+    Escreva uma versão de ponteiros da função strcat que mostramos no capítulo 2: strcat(s, t) copia a string t pro fim da string s
 */
 
 /*
-    For those with the book in reach, the function strcat is first presented in the page 48
+    Pra quem tiver o livro em mãos, a função aparece pela primeira vez na página 48
 */
 
 #include <stdio.h>
 
-void Strcat(char *s, char *t);
+void Strcat(char*, char*);
 
 int main(void)
 {
@@ -22,10 +22,10 @@ int main(void)
     return 0;
 }
 
-void Strcat(char *s, char *t)
-{
+void Strcat(char *s, char *t) {
     while (*s)
         s++;
     while (*s++ = *t++)
         ;
 }
+
